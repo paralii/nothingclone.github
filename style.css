@@ -44,9 +44,7 @@ button {
     transition: width 0.5s ease;
     display: inline-block; 
 }
-button:hover {
-    width: 105%;
-} 
+ 
 #top-bar {
     width: 80%;
     height: 60px;
@@ -81,14 +79,7 @@ button:hover {
 #support-top {
     margin: 0 10px ;
 }
-#phone:hover,
-#audio:hover,
-#cmf:hover,
-#store:hover,
-#community:hover,
-#support-top:hover {
-    border-bottom: 1px solid #000;
-}
+
 
 
 #ear-open,
@@ -207,9 +198,10 @@ a {
     justify-content: space-between;
 }
 #click {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     font-family: 'DotFont';
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -235,3 +227,16 @@ a {
     color: #fff;
     text-decoration: underline;
 }
+
+
+/* button:hover {
+    width: 105%;
+}
+#phone:hover,
+#audio:hover,
+#cmf:hover,
+#store:hover,
+#community:hover,
+#support-top:hover {
+    border-bottom: 1px solid #000;
+} */
